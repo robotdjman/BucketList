@@ -21,8 +21,21 @@ class DataViewController: UITableViewController {
         do
         {
             if let filePath = Bundle.main.url(forResource: "bucket18", withExtension: "csv")
-            
+            {
+                let input = try String(contentsOf: filePath)
+                let bucketLines = input.conponents(separatedBy: "\n")
+                for line in bucketLines
+                {
+                    let item = line.components(separatedBy: ",")
+                    items.append(BucketItem(conents: item[0], author: item[1]))
+                    
+                }
+            }
         }
+        catch{
+            print("File load error")
+        }
+        return items
     }
     override func viewDidLoad() {
         super.viewDidLoad()
