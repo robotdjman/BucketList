@@ -14,7 +14,7 @@
 		F39E9E7221B1C0DF00001D1C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E9E7121B1C0DF00001D1C /* DataViewController.swift */; };
 		F39E9E7421B1C0F800001D1C /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E9E7321B1C0F800001D1C /* BucketItemCell.swift */; };
 		F39E9E7621B1C11800001D1C /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E9E7521B1C11800001D1C /* BucketItem.swift */; };
-		F39E9E7C21B1C1A100001D1C /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = F39E9E7B21B1C1A100001D1C /* bucket18.csv */; };
+		F39E9E7E21B1D1B500001D1C /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = F39E9E7D21B1D1B500001D1C /* bucket18.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		F39E9E7121B1C0DF00001D1C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		F39E9E7321B1C0F800001D1C /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		F39E9E7521B1C11800001D1C /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
-		F39E9E7B21B1C1A100001D1C /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
+		F39E9E7D21B1D1B500001D1C /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket18.csv; path = ../../../../../Downloads/bucket18.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		F39E9E7921B1C13500001D1C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F39E9E7B21B1C1A100001D1C /* bucket18.csv */,
+				F39E9E7D21B1D1B500001D1C /* bucket18.csv */,
 				F39E9E5F21B1BFE900001D1C /* AppDelegate.swift */,
 				F39E9E6621B1BFED00001D1C /* Assets.xcassets */,
 				F39E9E6B21B1BFEE00001D1C /* Info.plist */,
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F39E9E6A21B1BFEE00001D1C /* LaunchScreen.storyboard in Resources */,
-				F39E9E7C21B1C1A100001D1C /* bucket18.csv in Resources */,
+				F39E9E7E21B1D1B500001D1C /* bucket18.csv in Resources */,
 				F39E9E6721B1BFED00001D1C /* Assets.xcassets in Resources */,
 				F39E9E6521B1BFE900001D1C /* Main.storyboard in Resources */,
 			);
